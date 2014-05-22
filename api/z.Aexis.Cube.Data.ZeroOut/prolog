@@ -128,7 +128,7 @@ While( nDelimDimIndex <> 0 & Long( sFilter ) > 0 );
     # Step 3: Create subset and assign to view
     If( pDebug <= 1 );
 
-      ExecuteProcess( 'COEURG_z_Dim.Sub.Create.ByElement',
+      ExecuteProcess( 'z.Aexis.Dim.Sub.Create.ByElement',
         'pDimension', sDimension,
         'pSubset', cSubset,
         'pElements', sElements,
