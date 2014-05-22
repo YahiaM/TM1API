@@ -1,1 +1,1 @@
-This directory containes the .pro files.
+This directory contains the .pro files.
